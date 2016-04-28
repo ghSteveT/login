@@ -1,0 +1,119 @@
+.pic {
+    width: 300px;
+  	height: 125px;
+  	object-fit: contain;
+  	margin: 0 auto;
+  	margin-bottom: 110px;
+}
+
+.align {
+	max-width:110px;
+    display:inline-block;
+	border:1px solid gray;
+	margin-bottom: 10px;
+	padding: 20px;
+}
+
+
+.login {
+	width: 300px;
+	height: 125px;
+	object-fit: contain;
+	margin: 0 auto;
+}
+
+.border {
+	width: 181px;
+	height: 30x;
+	border:1px solid #ff0000
+}
+
+.container{
+	position: relative;
+	top:35px;
+	margin: 0 auto;
+	object-fit:contain;
+	text-align:center;
+}
+
+.jeff{
+	width: 248px;
+	height: 46px;
+	font-family: HelveticaNeue-Bold;
+	font-weight: bold;
+	font-size: 18px;
+	color: black;
+	opacity: 1;
+  	margin: 0 auto;
+}
+
+.button{
+	font-weight: bold;
+	background-color: #00479f;
+	color: white;
+	width: 300px;
+	height: 55px;
+	border-radius: 100px;
+	border:1px solid;
+	border-color: #00479f;
+	margin-bottom: 20px;
+}
+
+.small_button{
+	color: #00479f;
+	width: 300px;
+	margin-bottom: 95px;
+	border: none;
+}
+
+input[type=text]{
+	background-image: url(group-2.png);
+	background-repeat: no-repeat;
+	background-position: 10px 15px;
+	padding-left: 50px;
+	width: 300px;
+	height: 55px;
+	border-radius: 100px;
+	border:1px solid;
+	border-color: #00479f;
+	background-color: var(--darkish-blue);
+	margin-bottom: 20px;
+	
+}
+
+input[type=pass]{
+	background-image: url(group.png);
+	background-repeat: no-repeat;
+	background-position: 10px 15px;
+	padding-left: 50px;
+	width: 300px;
+	height: 55px;
+	border-radius: 100px;
+	border:1px solid;
+	border-color: #00479f;
+	background-color: var(--darkish-blue);
+	margin-bottom: 20px;
+	
+}
+
+
+
+
+/*REFERENCE: https://css-tricks.com/snippets/css/style-placeholder-text/#comment-764690*/
+input[placeholder], [placeholder], *[placeholder] {
+	color: black;
+	opacity: 1;
+}
+
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #000;
+    opacity: 1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #000;
+    opacity: 1;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #000;
+    opacity: 1;
+}
